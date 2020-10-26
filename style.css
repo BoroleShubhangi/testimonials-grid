@@ -1,0 +1,193 @@
+body {
+  color: hsl(210, 46%, 95%);
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.daniel {
+  padding: 15px;
+  height: 217px;
+  width: 423px;
+  margin: 40px;
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-size: 110px 110px;
+  background-repeat: no-repeat;
+  background-position: 80% 5%;
+}
+
+.jonathan {
+  padding: 3px;
+  background-color: hsl(217, 19%, 35%);
+  height: 230px;
+  width: 230px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 287px;
+  left: 500px;
+  padding: 8px;
+}
+
+img {
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.head {
+  line-height: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.subhead {
+  margin-left: 10px;
+}
+
+.image {
+  float: left;
+  margin-top: 12px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 12px;
+  margin-top: 0;
+  opacity: 0.7;
+  margin-left: 13px;
+  display: inline-block;
+}
+
+h2 {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.head1 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  line-height: 16px;
+}
+
+.harmon {
+  display: block;
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  height: 210px;
+  width: 210px;
+  position: relative;
+  bottom: 286px;
+  left: 40px;
+  border-radius: 10px;
+}
+
+.head2 {
+  position: relative;
+  top: 24px;
+  left: 25px;
+  line-height: 14px;
+}
+
+.abrams {
+  background-color: hsl(219, 29%, 14%);
+  width: 479px;
+  height: 210px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 516px;
+  left: 270px;
+}
+
+.head3 {
+  position: relative;
+  top: 22px;
+  left: 20px;
+  line-height: 15px;
+}
+
+.kira {
+  padding: 5px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  width: 180px;
+  height: 468px;
+  border-radius: 10px;
+  position: relative;
+  left: 770px;
+  bottom: 989px;
+}
+
+.head4 {
+  line-height: 15px;
+  position: relative;
+}
+
+.attribution {
+  grid-area: auto;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  color: hsl(238, 29%, 16%);
+}
+@media (max-width: 475px) {
+  .testo {
+    display: grid;
+    grid: 1/2;
+    grid-gap: 5px;
+    padding: 5px;
+    width: auto;
+  }
+
+  .daniel {
+    height: 305px;
+    width: 250px;
+    margin: 40px;
+    right: 22%;
+  }
+
+  .jonathan {
+    height: 200px;
+    width: 260px;
+    margin: 40px;
+    bottom: 20%;
+    left: 0.2rem;
+  }
+
+  .harmon {
+    bottom: 38%;
+    width: 275px;
+    left: 12%;
+  }
+
+  .abrams {
+    height: 300px;
+    width: 272px;
+    bottom: 18%;
+    width: 270px;
+    left: 12%;
+  }
+  .kira {
+    width: 272px;
+    height: 348px;
+    left: 39px;
+    bottom: 10%;
+  }
+
+  .head2 {
+    margin-top: -8%;
+    margin-left: 5px;
+  }
+  .head3 {
+    margin-top: -8%;
+    margin-left: 5px;
+  }
+}
